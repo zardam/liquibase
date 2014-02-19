@@ -297,6 +297,8 @@ public class DiffResult {
                     getUnexpectedTables().size()>0 ||
                     getUnexpectedUniqueConstraints().size()>0 ||
                     getUnexpectedViews().size()>0 ||
+                    getChangedColumns().size()>0 ||
+                    getChangedViews().size()>0 ||
                     differencesInData;
         }
 
